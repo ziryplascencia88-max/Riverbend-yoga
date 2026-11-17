@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riverbend Yoga Studio | Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Riverbend Yoga Studio</h1>
+    <p>Find balance, strength, and peace.</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="about.html">About</a>
+    <a href="events.html">Events</a>
+</nav>
+
+<main>
+    <section>
+        <h2>Welcome to Riverbend Yoga Studio</h2>
+        <p>Welcome to Riverbend Yoga Studio! We offer a friendly and relaxing space where people can improve their health, build strength, and find peace through yoga. Our classes are open to beginners and experienced students.</p>
+
+        <img src="images/yoga-studio.jpg" alt="Peaceful yoga studio with space for students to practice">
+
+        <h2>Discover the Benefits of Yoga</h2>
+        <p>Yoga can help improve flexibility, balance, strength, and relaxation. Our goal is to help every visitor feel comfortable and supported during their practice.</p>
+
+        <picture>
+            <source media="(max-width: 600px)" srcset="images/yoga-feature-small.jpg">
+            <img src="images/yoga-feature-large.jpg" alt="Yoga practice in a calm and welcoming setting">
+        </picture>
+    </section>
+
+    <section>
+        <h2>Weekly Schedule</h2>
+        <ul>
+            <li>Monday: Beginner Yoga — 9:00 AM</li>
+            <li>Tuesday: Vinyasa Yoga — 5:00 PM</li>
+            <li>Wednesday: Gentle Yoga — 10:00 AM</li>
+            <li>Thursday: Restorative Yoga — 6:00 PM</li>
+            <li>Saturday: All Levels Yoga — 11:00 AM</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Relax with a Breathing Exercise</h2>
+        <p>Listen to this breathing exercise to help you relax and prepare for your practice.</p>
+        <audio controls>
+            <source src="images/yoga-breathing.mp3" type="audio/mpeg">
+            Your browser does not support audio. Please try another browser.
+        </audio>
+    </section>
+
+    <section>
+        <h2>Join Us</h2>
+        <p>Visit our Services page to learn about our classes or our Events page to see upcoming workshops.</p>
+        <a class="button-link" href="services.html">Explore Our Classes</a>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Riverbend Yoga Studio. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
